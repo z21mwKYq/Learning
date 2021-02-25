@@ -4,7 +4,17 @@ while True:
     if not ls:
         break
     n.append(ls)
+
 print(n)
+
+ls2 = [[0 for i in range(len(n[0]))] for j in range(len(n))]
+print(ls2)
+
+for i in range(len(n)):
+    for j in range(len(n[0])):
+        s = 0
+        for di in range(-1:2):
+            for dj in ranf
 
 # for i in range(3):
 #     ls = [int(i) for i in input().split()]
